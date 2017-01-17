@@ -97,6 +97,7 @@ div#ahyes{
 iframe.docs{
     width: 90%;
     height: 600px;
+    margin: inherit;
 }
 p#about{
     text-align: justify;
