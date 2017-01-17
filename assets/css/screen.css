@@ -94,6 +94,10 @@ div#ahyes{
     background-color: white;
 }
 */
+iframe.docs{
+    width: 90%;
+    height: 600px;
+}
 p#about{
     text-align: justify;
 }
