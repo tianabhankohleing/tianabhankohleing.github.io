@@ -1,0 +1,306 @@
+/*http://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp*/
+
+/*http://www.w3schools.com/css/css_navbar.asp*/
+
+@import url('https://fonts.googleapis.com/css?family=Rokkitt|Scope+One');
+
+body.enter{
+    background: #000000;
+}
+header.stevi {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    background-size:100%;
+}
+/*http://stackoverflow.com/questions/5449031/move-link-image-5px-up-on-hover*/
+a img:hover{ 
+    position: relative; 
+    top: -5px;
+    background: #403936;
+    padding: 1px;
+    /*border-bottom: solid 2px darkslategray;
+    border-bottom-style:dotted;*/
+    /*border-bottom-right-radius: .5em .5em;
+    border-top-right-radius: .5em .5em;
+    border-bottom-left-radius: .5em .5em;
+    border-top-left-radius: .5em .5em;*/
+}
+
+/*main*/
+.page {
+    width: 45em;
+    margin: 30px;
+    padding: 1.4em;
+    border: solid #14B9FF 1px;
+    outline: solid #93E5FE 1px;
+    background-color: rgba(100,60,90,.05);
+}
+/*.homepage {
+    width: 45em;
+    margin: 30px;
+    padding: 1.4em;
+}*/
+body {
+    background: #34CFFF url(../images/HD-8-Bit-Pictures.jpg) no-repeat;
+    background-attachment: fixed;
+}
+header {
+    height: 230px;
+    width: 720px;
+    background-size:100%;
+   }
+h1 {
+    color:black;
+    font-family: Rokkitt, Scope One, serif;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    margin: auto;
+    padding: inherit;
+    background-color: black;
+    height: 30px;
+}
+h2 {
+    font-family: Rokkitt, serif;
+    border: solid #14B9FF 1px;
+    outline: solid #93E5FE 1px;
+    margin: 20px;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    background-color: #34CFFF;
+}
+h3 {
+    text-align: center;
+    border: solid #2EC0FF 1px;
+    outline: solid #4DD5FE 2px;
+    color: darkslategray;
+    padding: inherit;
+}
+/*
+div#ahyes{
+    width: 64.5%;
+    margin: auto;
+    margin-top: 22px;
+    padding: 1.4em;*/
+    /*border: solid #14B9FF 1px;
+    outline: solid #93E5FE 1px;*/
+    /*border: solid #2EC0FF 1px;
+    outline: solid #4DD5FE 2px;
+    background-color: white;
+}
+*/
+iframe.docs{
+    width: 90%;
+    height: 700px;
+    margin: inherit;
+}
+p#about{
+    text-align: justify;
+}
+div#video{
+    margin: 10px;
+    padding: 10px;
+    border: solid #2EC0FF 1px;
+    outline: solid #4DD5FE 2px;
+    text-align: center;
+}
+div.content{
+    text-align: center;;
+}
+div.catthing{
+    position: relative;
+    left: 1627%;
+    bottom: 54.1px;
+}
+div.catthing2{
+    position: fixed;
+    left: 69.5%;
+    bottom: 55px;
+}
+div.catthing3{
+    position: fixed;
+    left: 91.5%;
+    bottom: 547px;
+}
+div.catthing4{
+    position: fixed;
+    left: 75.8%;
+    bottom: 262px;
+}
+div.catthing:hover{
+    background: url(../images/Hello.PNG) no-repeat;
+    width: 115px;
+}
+div.catthing2:hover{
+    background: url(../images/whyyoufollow.PNG) no-repeat;
+    width: 290px;
+}
+div.catthing3:hover{
+    background: url(../images/sads.PNG) no-repeat;
+    width: 290px;
+}
+div.catthing4:hover{
+    background: url(../images/why.PNG) no-repeat;
+    width: 300px;
+}
+.container2{
+    position: relative;
+    width: 50px;
+}
+p{
+    border: solid #2EC0FF 1px;
+    outline: solid #4DD5FE 2px;
+    padding: 1.7em;
+    margin: auto;
+    margin-top: 3%;
+    background-color: #FFFFFF;
+    font-family: Scope One;
+    color: darkslategray;
+    text-align: center
+    
+    /*width: 30%;
+    border-style: dashed;
+    transform: translate(-50%, -50%);
+    font-family: EngraversGothic BT,Garamond,CG Omega,Courier,sans-serif;
+    line-height: 1.6em;*/
+}
+a{
+    text-decoration: none;
+    color: rgba(123,140,133,.5);
+}
+a:hover{
+    color: palevioletred;
+}
+
+/*nav*/
+
+nav.home{
+    position: relative;
+    right: -13px;
+    bottom: 21.5px;
+    width: 720px;
+}
+.container{
+    position: relative;
+    width: 800px;
+}
+nav{
+    position: fixed;
+    top: 2%;
+    padding: 1%;
+    margin: auto;
+    width: 11%;
+    right: 33%;
+}
+nav ul {
+    font-size: 1.2em;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    border-bottom: solid 15px black;
+    border-left: solid 10px gray;
+    background-color: black;
+    font-family: EngraversGothic BT,Garamond,CG Omega,Courier,sans-serif;
+}
+nav ul li {
+    background-color:white;
+    border: solid 1px lightgray;
+    width: 100%;
+    border-bottom-right-radius: .5em .5em;
+    border-top-right-radius: .5em .5em;
+}
+nav ul li a{
+    display: inline-block;
+    margin: .5px;
+    padding: 10px;
+    width: 98%;
+}
+nav ul li:hover{
+    background-color: black;
+    transition-timing-function: ease;
+    transition: .5s;
+    width: 125px;
+    border: none;
+    font-weight: 900;
+}
+nav ul li a:hover{
+    color: white;
+}
+body.home a.home{
+color: white;
+background-color: black;
+border-bottom-right-radius: .5em .5em;
+border-top-right-radius: .5em .5em;
+font-weight: 900;
+margin: auto;
+margin-left: -1px;
+margin-bottom: -1px;
+margin-top: -1px
+}
+body.about a.about{
+color: white;
+background-color: black;
+border-bottom-right-radius: .5em .5em;
+border-top-right-radius: .5em .5em;
+font-weight: 900;
+margin: auto;
+width: 90%;
+margin-left: -1px;
+margin-bottom: -1px;
+margin-top: -1px
+}
+body.achievements a.achievements{
+color: white;
+background-color: black;
+border-bottom-right-radius: .5em .5em;
+border-top-right-radius: .5em .5em;
+font-weight: 900;
+margin: auto;
+width: 90%;
+margin-left: -1px;
+margin-bottom: -2px;
+margin-top: -1px
+}
+body.works a.works{
+color: white;
+background-color: black;
+border-bottom-right-radius: .5em .5em;
+border-top-right-radius: .5em .5em;
+font-weight: 900;
+margin: auto;
+width: 90%;
+margin-left: -1px;
+margin-bottom: -2px;
+margin-top: -1px
+}
+body.resume a.resume{
+color: white;
+background-color: black;
+border-bottom-right-radius: .5em .5em;
+border-top-right-radius: .5em .5em;
+font-weight: 900;
+margin: auto;
+width: 90%;
+margin-left: -1px;
+margin-bottom: -2px;
+margin-top: -1px
+}
+body.capstone a.capstone{
+color: white;
+background-color: black;
+border-bottom-right-radius: .5em .5em;
+border-top-right-radius: .5em .5em;
+font-weight: 900;
+margin: auto;
+width: 90%;
+margin-left: -1px;
+margin-bottom: -2px;
+margin-top: -1px
+}
+
+/*media queries*/
