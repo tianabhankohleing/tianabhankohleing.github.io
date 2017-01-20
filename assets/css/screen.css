@@ -181,6 +181,10 @@ nav.home{
     top: 50.3%;
     width: 720px;
 }
+.container{
+    position: relative;
+    width: 800px;
+}
 nav{
     position: fixed;
     top: 2%;
