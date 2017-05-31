@@ -99,6 +99,11 @@ iframe.docs{
     height: 700px;
     margin: inherit;
 }
+iframe.slides{
+    width: 90%;
+    height: 450px;
+    margin: 5%;
+}
 p#about{
     text-align: justify;
 }
