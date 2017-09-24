@@ -309,3 +309,33 @@ margin-top: -1px
 }
 
 /*media queries*/
+
+@media screen and (max-width: 375px) {
+    .page {
+    width: 20.1em;
+    height: 10em;
+    margin: .1px;
+    padding: 1em;
+     border: solid #14B9FF 1px;
+    outline: solid #93E5FE 1px;
+    background-color: rgba(100,60,90,.05);
+}
+header {
+    height: 170px;
+    width: 290px;
+    background: 100%
+   }
+header img {
+    height: 160px;
+    width: 324px;
+    }
+}
+nav.home{
+    position: fixed;
+    right: 9px;
+    top: 30.3%;
+    width: 350px;
+}
+body.home a.home{
+width: 16em;
+}
