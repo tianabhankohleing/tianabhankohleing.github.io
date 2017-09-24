@@ -329,7 +329,6 @@ header img {
     height: 160px;
     width: 324px;
     }
-}
 nav.home{
     position: fixed;
     right: 9px;
@@ -338,4 +337,5 @@ nav.home{
 }
 body.home a.home{
 width: 16em;
+}
 }
